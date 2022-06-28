@@ -6,7 +6,7 @@ $(function () {
     autoplaySpeed: 2000
   });
 
-  $("#menu").on("click", "a", function (event) {
+  $(".menu, .bike__column").on("click", "a", function (event) {
     event.preventDefault();
     var id = $(this).attr('href'),
       top = $(id).offset().top;

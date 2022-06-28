@@ -510,6 +510,17 @@ a {
   .form__bike-img {
     width: 500px;
   }
+  
+  .menu__list-link:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+
+  .bike__link:hover,
+  .price__btn:hover {
+    background-color: #131313;
+    color: #fff;
+  }
 }
 
 @media (max-width: 991px) {
